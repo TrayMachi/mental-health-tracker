@@ -28,9 +28,15 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
-    "tristan-agra-mentalhealthtracker.pbp.cs.ui.ac.id",
+    "tristan-agra-mentalhealthtracker2.pbp.cs.ui.ac.id",
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    "http://localhost",
+    "http://127.0.0.1",
+    "http://tristan-agra-mentalhealthtracker2.pbp.cs.ui.ac.id",
+    "https://tristan-agra-mentalhealthtracker2.pbp.cs.ui.ac.id",
+]
 
 # Application definition
 
@@ -59,7 +65,7 @@ ROOT_URLCONF = "mental_health_tracker.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        'DIRS': [BASE_DIR / 'templates'],
+        "DIRS": [BASE_DIR / "templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
