@@ -30,14 +30,14 @@ DEBUG = not PRODUCTION
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
-    "tristan-agra-mentalhealthtracker2.pbp.cs.ui.ac.id",
+    "tristan-agra-mentalhealthtracker.pbp.cs.ui.ac.id",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost",
     "http://127.0.0.1",
-    "http://tristan-agra-mentalhealthtracker2.pbp.cs.ui.ac.id",
-    "https://tristan-agra-mentalhealthtracker2.pbp.cs.ui.ac.id",
+    "http://tristan-agra-mentalhealthtracker.pbp.cs.ui.ac.id",
+    "https://tristan-agra-mentalhealthtracker.pbp.cs.ui.ac.id",
 ]
 
 # Application definition
